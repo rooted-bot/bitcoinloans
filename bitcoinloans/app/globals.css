@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bitcoin-orange: #F7931A;
+  --dark-bg: #1a1a2e;
+}
+
+body {
+  color: #1a1a2e;
+}
+
+.prose h2 {
+  @apply text-2xl font-bold mt-8 mb-4 text-gray-900;
+}
+
+.prose h3 {
+  @apply text-xl font-semibold mt-6 mb-3 text-gray-800;
+}
+
+.prose p {
+  @apply mb-4 leading-relaxed text-gray-700;
+}
+
+.prose ul {
+  @apply list-disc pl-6 mb-4;
+}
+
+.prose li {
+  @apply mb-2 text-gray-700;
+}
+
+.prose a {
+  @apply text-orange-500 hover:text-orange-600 underline;
+}
+
+.bitcoin-gradient {
+  background: linear-gradient(135deg, #F7931A 0%, #FFD700 100%);
+}
