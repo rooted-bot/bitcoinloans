@@ -1,14 +1,14 @@
-# robots.txt for BitcoinLoans
+# robots.txt for BitcoinLoans.com
 User-agent: *
 Allow: /
 
 # Sitemap location
-Sitemap: https://bitcoinloans.vercel.app/sitemap.xml
+Sitemap: https://bitcoinloans.com/sitemap.xml
 
 # Disallow admin or private areas if they exist
 Disallow: /admin/
 Disallow: /api/
 Disallow: /_next/
 
-# Crawl rate
-Crawl-delay: 10
+# Crawl rate (optional)
+# Crawl-delay: 10
